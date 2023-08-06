@@ -1,0 +1,209 @@
+html {
+    background: #403745;
+    padding: 2rem;
+}
+
+body {
+    background: black;
+    border-radius: 19px;
+    font-family: 'Tahoma', 'Roboto', sans-serif;
+    overflow: hidden;
+    line-height: 0;
+    height: 35em;
+    width: 65em;
+    margin: auto;
+}
+
+nav {
+    position: absolute;
+    margin: auto 19.7em;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.nav-items {
+    text-align: center;
+    position: relative;
+    top: 1em;
+    padding: 1.5rem 2em;
+    border: 2px solid black;
+    display: flex;
+    gap: 1em;
+    border-radius: 30px;
+    justify-content: center;
+}
+
+.nav-items a {
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background: #855be2;
+    color: black;
+    padding: 0em;
+    border-radius: 19px;
+    margin: auto;
+    padding: 3em;
+    height: 14em;
+    font-weight: 100;
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 4em;
+    position: relative;
+    left: -0.5em;
+    top: 2.9em;
+}
+
+.overpanel {
+    display: flex;
+    padding: 0 1em;
+    gap: 4em;
+    margin-top: -32px;
+}
+
+.column1 {
+    background: #e1765a;
+}
+
+.column2 {
+    background: #5dbe74;
+}
+
+.column3 {
+    background: #1d1d1d;
+    color: #ccc;
+}
+
+.rows.column3 h1 {
+    color: #ddd;
+}
+
+.column4 {
+    background: #8f9a9d;
+}
+
+.column5 {
+    background: #e3d45a;
+}
+
+.sales h1,
+.analytics h1 {
+    color: #696969;
+    font-size: 21px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    padding: 0 10px;
+}
+
+.rows {
+    margin-top: 10px;
+    user-select: none;
+    padding: 1em 2em;
+    border-radius: 20px;
+    display: grid;
+    gap: 1em;
+    height: 58px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.rows:hover {
+    opacity: 0.8;
+}
+
+.row2 {
+    display: flex;
+    gap: 10px;
+    top: 3.1em;
+    position: relative;
+}
+
+.row1 {
+    display: flex;
+    gap: 10px;
+    padding: 0;
+    margin: auto;
+    position: relative;
+    top: 3em;
+    left: -16px;
+}
+
+.rows h1 {
+    position: relative;
+    font-size: 39px;
+    top: -24px;
+    color: black;
+    left: -29px;
+}
+
+.rows p {
+    font-size: 13px;
+    position: relative;
+    left: -17px;
+    top: -10px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+
+.another-one {
+    display: grid;
+}
+
+.another-two {
+    gap: 4px;
+    display: grid;
+}
+
+header h1::after {
+    content: "- ";
+    display: flex;
+    color: transparent;
+    background: url(https://cdn.discordapp.com/attachments/1048680804257103954/1094620543891816488/image.png);
+    position: absolute;
+    padding: 1em;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    justify-content: flex-end;
+    right: 0;
+    left: 8.5em;
+    bottom: -36px;
+}
+
+header h1::before {
+    content: "1345 transactions";
+    position: absolute;
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+    top: -70px;
+    background-color: black;
+    user-select: all;
+    right: 38px;
+    height: 1px;
+    padding: 10px;
+    border-radius: 30px;
+    color: #855be2;
+    z-index: 9;
+}
+
+.sales h1 {
+    left: -27px;
+    margin-bottom: 18px;
+}
+
+.analytics {
+    position: relative;
+    right: -23px;
+    bottom: -6px;
+}
+
+.sales {
+    margin-top: 4px;
+}

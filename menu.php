@@ -193,8 +193,7 @@
       </div>
   </div>
   
-  <div class="menu-item">
-  <div id="search-results"></div>
+  <div class="menu-item" id="search-results">
   <?php
 require_once("./db.php");
 

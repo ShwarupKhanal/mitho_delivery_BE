@@ -3,7 +3,7 @@
 <head>
   <title>Food Delivery - Home</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="home.css">
  
 </head>
 <body>

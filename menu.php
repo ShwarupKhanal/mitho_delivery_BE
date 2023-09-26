@@ -9,9 +9,10 @@
   </style>
 </head>
 <body>
+
   <?php
   require_once("./navbar.php");
-  require_once("./db.php");
+  require_once("./userdb.php");
   
   ?>
   
@@ -42,7 +43,7 @@
   
   <div class="menu-item" id="search-results">
   <?php
-require_once("./db.php");
+require_once("./userdb.php");
 
 
 ?>

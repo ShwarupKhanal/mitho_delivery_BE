@@ -4,9 +4,6 @@
   <title>Mitho Food Delivery Admin Dashboard - Add Food</title>
   <link rel="stylesheet" href="add_food.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-  <style>
-  
-  </style>
 </head>
 <body>
 
@@ -66,6 +63,8 @@ $conn->close();
             <option value="vegan">Vegan</option>
             <option value="gluten-free">Gluten-Free</option>
             <option value="dairy-free">Dairy-Free</option>
+            <option value="non-veg">Non-Veg</option>
+            
           </select>
           
           <label for="food-description">Description:</label>

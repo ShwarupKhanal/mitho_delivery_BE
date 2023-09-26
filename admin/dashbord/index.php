@@ -14,7 +14,7 @@
         <h2>Welcome to Mitho Food Delivery Admin Dashboard</h2>
         <p>Please use the menu on the left to navigate through the various sections of the dashboard.</p>
         <p>If you need any assistance, please contact our support team.</p>
-        <p><a href="mailto:support@fooddelivery.com">support@mithofooddelivery.com</a></p>
+        <p><a href="mithodelivery@gmail.com">mithodelivery@gmail.com</a></p>
       </div>
     </div>
   </div>

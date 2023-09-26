@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">0-6
 </head>
 <body>
     
@@ -53,7 +53,7 @@
             <input type="password" id="password" name="password" required>
             <button type="submit">Login</button>
           </form>
-          <p>Don't have an account? <a href="sign-up.php" id="sign-up.php">Sign up</a></p>
+          <p>Don't have an account? <a href="http://localhost/pmd/admin/signup/" id="sign-up.php">Sign up</a></p>
         </div>
     
     

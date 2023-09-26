@@ -5,22 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="signup.css">
 </head>
 <body>
     
     <div class="container">
         <div class="form-container" id="login-form">
           <h1>Sign Up</h1>
-          <form action="sign-up.php" method="POST">
-            <?php
+          <form action="signup.php" method="POST">
+          <?php
             session_start();
-            if(isset($_SESSION["uid"]))
-            {
-                header("Location:../dashbord/index.php");
-                exit();
-            }
-                            require_once("../../db.php");
+            
+                            require_once("../userdb.php");
                             if(isset($_POST["email"])&&isset($_POST["password"]))
                     {
                             if($_POST["password"]==$_POST["confirm-password"])
@@ -32,7 +28,7 @@
                                     $query="INSERT INTO users (u_name,u_password, u_email)
                                 VALUES('$u_name', '$u_password', '$u_email');";
                                 mysqli_query($conn,$query);
-                                header("Location: sign-in.php"); 
+                                header("Location: login.php"); 
                                 }else{
                                     echo "<p style='color:red;'>MINIMUN REQUIRED 8 CHARACTERS</p>";
                                 }
@@ -53,7 +49,7 @@
             <input type="password" id="confirm-password" name="confirm-password" required>
             <button type="submit">Sign up</button>
           </form>
-          <p>Have an account? <a href="http://localhost/pmd/admin/login/" id="sign-in.php">Login</a></p>
+          <p>Have an account? <a href="./login.php" id="login.php">Login</a></p>
         </div>
     
     
